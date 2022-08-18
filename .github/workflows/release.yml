@@ -2,8 +2,8 @@ name: Release
 
 on:
   release:
-    types: [published]
-    branches: [ master ]
+    types: published
+    branches: master
 
 jobs:
 
