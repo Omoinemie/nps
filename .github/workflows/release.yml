@@ -1,12 +1,9 @@
-name: Release
+name: nps
 
 on:
-  pull_request:
   push:
     branches:
-      - main
-      - feature/**
-    workflow_dispatch:
+      - master
     
 #on:
 #  release:
