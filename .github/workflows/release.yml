@@ -2,9 +2,9 @@ name: Release
 
 on:
   release:
-    types: published
-    branches: master
-
+    types: [ published ]
+    branches: [ master ]
+    workflow_dispatch:
 jobs:
 
   build_assets:
