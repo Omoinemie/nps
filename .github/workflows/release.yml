@@ -36,10 +36,10 @@ jobs:
       with:
         tag_name: V0.26.10
         name: V0.26.10
-		    body: nps/npc New Release.
-		    draft: false
-		    prerelease: true
-        files:|
+        body: nps/npc New Release.
+        draft: false
+        prerelease: true
+        files: |
           freebsd_386_client.tar.gz
           freebsd_386_server.tar.gz
           freebsd_amd64_client.tar.gz
